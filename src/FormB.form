@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormB">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6372c" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="ФИО"/>
+        </properties>
+      </component>
+      <component id="45877" class="javax.swing.JTextField" binding="fio">
+        <constraints/>
+        <properties>
+          <maximumSize width="300" height="24"/>
+          <minimumSize width="300" height="24"/>
+          <preferredSize width="300" height="24"/>
+        </properties>
+      </component>
+      <component id="62a40" class="javax.swing.JButton" binding="switch2to1Button">
+        <constraints/>
+        <properties>
+          <text value="Switch2"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
