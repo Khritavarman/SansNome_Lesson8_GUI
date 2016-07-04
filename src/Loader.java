@@ -7,7 +7,12 @@ import java.awt.event.*;
 public class Loader {
     public static void main(String[] args) {
 
-        WindowA windowA = new WindowA();
+        MyFrame myFrame = new MyFrame();
+        myFrame.setLocationRelativeTo(null);
+        myFrame.setVisible(true);
+    }
+
+        /*WindowA windowA = new WindowA();
         FormA formA = new FormA();
         windowA.setContentPane(formA.getRootPanel());
         WindowB windowB = new WindowB();
@@ -87,7 +92,7 @@ public class Loader {
     public static void convertToB(FormA formA, FormB formB) {
         String text = formA.getSurname().getText() + " " + formA.getName().getText() + " " + formA.getSecondName().getText();
         formB.getFio().setText(text);
-    }
+    }*/
 }
 
 
